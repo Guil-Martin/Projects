@@ -82,7 +82,7 @@
 	{
 		"title": "Juliette et les Ptimos",
 		"tech": [
-			{ "title": "HTML CSS JS", "src": "java.png" }
+			{ "title": "Java", "src": "java.png" }
 		],
 		"desc": [
 			"Petit jeu programmé en pur Java.",
