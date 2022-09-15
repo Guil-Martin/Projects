@@ -10,15 +10,18 @@ export const ProjectSingle = ({ obj_test }) => {
 	return (
 		<>
 			<h1 className='title'>{ title }</h1>
-			<h2>Technologies used:</h2>
 			<div className='tech'>
 				{
 					tech.map((ele, i) => {
-						return <img key={i} className="techicon" src={ "/images/" + ele.src } title={ ele.title } alt={ ele.title }>{ele.link}</img>
+						return <img key={i} className="techicon" src={ "/images/icons/" + ele.src } title={ ele.title } alt={ ele.title }>{ele.link}</img>
 					})
 				}
 			</div>
-			<div className='description'>{ desc.join('\n') }</div>
+			<div className='description'>{ 
+					desc.map((ele, i) => {
+						return <p key={i}>{ele}</p> 
+					})
+				}</div>
 			<div className='projectImgs'>
 				{
 					imgs.map((ele, i) => {

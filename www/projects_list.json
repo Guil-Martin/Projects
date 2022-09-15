@@ -2,22 +2,29 @@
 	{
 		"title": "Web Agency",
 		"tech": [
-			{ "title": "HTML icon", "src": "icons/html.png" },
-			{ "title": "HTML icon", "src": "icons/css.png" }
+			{ "title": "HTML icon", "src": "html.png" },
+			{ "title": "HTML icon", "src": "css.png" }
 		],
 		"desc": [
 			"Intégration d'une maquette. Développé uniquement en HTML et CSS et un peu de javaScript, responsive."
 		],
 		"imgs": [
+			{ "title": "Integration Web Agency", "src": "webAgency.png" },
+			{ "title": "Integration Web Agency", "src": "webAgency.png" },
+			{ "title": "Integration Web Agency", "src": "webAgency.png" },
+			{ "title": "Integration Web Agency", "src": "webAgency.png" },
+			{ "title": "Integration Web Agency", "src": "webAgency.png" },
+			{ "title": "Integration Web Agency", "src": "webAgency.png" },
 			{ "title": "Integration Web Agency", "src": "webAgency.png" }
+
 		],
 		"github": ""
 	},
 	{
 		"title": "Carte interactive Vélo'V",
 		"tech": [
-			{ "title": "HTML CSS JS", "src": "icons/htmlcssjs.png" },
-			{ "title": "jQuery", "src": "icons/jquery.png" }
+			{ "title": "HTML CSS JS", "src": "htmlcssjs.png" },
+			{ "title": "jQuery", "src": "jquery.png" }
 		],
 		"desc": [
 			"Carte de réservation de vélo factice.",
@@ -29,19 +36,17 @@
 			"Compte à rebours en temps réel pour la réservation.",
 			"Utilisation de localStorage et sessionStorage pour garder les données et préremplir les champs après un rafraîchissement de la page et/ou à la fermeture du navigateur."
 		],
-		"imgs": [
-			{ "title": "VeloV", "src": "velov.png" }
-		],
+		"imgs": [{ "title": "VeloV", "src": "velov.png" }],
 		"github": "https://github.com/Guil-Martin/VeloV"
 	},
 	{
 		"title": "Blog d'écrivain",
 		"tech": [
-			{ "title": "HTML CSS JS", "src": "icons/htmlcssjs.png" },
-			{ "title": "Bootstrap", "src": "icons/bootstrap.png" },
-			{ "title": "jQuery", "src": "icons/jquery.png" },
-			{ "title": "PHP", "src": "icons/php.png" },
-			{ "title": "SQL", "src": "icons/sql.png" }
+			{ "title": "HTML CSS JS", "src": "htmlcssjs.png" },
+			{ "title": "Bootstrap", "src": "bootstrap.png" },
+			{ "title": "jQuery", "src": "jquery.png" },
+			{ "title": "PHP", "src": "php.png" },
+			{ "title": "SQL", "src": "sql.png" }
 		],
 		"desc": [
 			"Réalisation d'un blog d'écrivain factice pour un auteur factice - Jean Forteroche.",
@@ -50,19 +55,17 @@
 			"Espace admin avec layout différent séparé de l'interface utilisateur avec CRUD fonctionnel et utilisation de librairies PHP (tinyMCE, GD).",
 			"Système de signalement des commentaires qui seront affichés dans l'espace admin avec option de suppression, utilisant AJAX."
 		],
-		"imgs": [
-			{ "title": "Blod d'écrivain", "src": "blog.png" }
-		],
+		"imgs": [{ "title": "Blod d'écrivain", "src": "blog.png" }],
 		"github": "https://github.com/Guil-Martin/phpBlog"
 	},
 	{
 		"title": "Site galerie d'images",
 		"tech": [
-			{ "title": "HTML CSS JS", "src": "icons/htmlcssjs.png" },
-			{ "title": "Bootstrap", "src": "icons/bootstrap.png" },
-			{ "title": "jQuery", "src": "icons/jquery.png" },
-			{ "title": "PHP", "src": "icons/php.png" },
-			{ "title": "SQL", "src": "icons/sql.png" }
+			{ "title": "HTML CSS JS", "src": "htmlcssjs.png" },
+			{ "title": "Bootstrap", "src": "bootstrap.png" },
+			{ "title": "jQuery", "src": "jquery.png" },
+			{ "title": "PHP", "src": "php.png" },
+			{ "title": "SQL", "src": "sql.png" }
 		],
 		"desc": [
 			"Un site où l'on peut créer un compte et poster des images et des nouvelles.",
@@ -73,9 +76,24 @@
 			"Outils d'administration pour les utilisateurs inscrits - CRUD pour profil, images et nouvelles.",
 			"Système de commentaires et de like/dislike."
 		],
-		"imgs": [
-			{ "title": "Site galerie", "src": "gallery.png" }
-		],
+		"imgs": [{ "title": "Site galerie", "src": "gallery.png" }],
 		"github": "https://github.com/Guil-Martin/p5"
+	},
+	{
+		"title": "Juliette et les Ptimos",
+		"tech": [
+			{ "title": "HTML CSS JS", "src": "java.png" }
+		],
+		"desc": [
+			"Petit jeu programmé en pur Java.",
+			"Focus sur l'utilisation du concept de la programmation orienté objet.",
+			"Utilisation du package Swing Java pour l'interface graphique."
+		],
+		"imgs": [{ "title": "Site galerie", "src": "gallery.png" }],
+		"github": "https://github.com/Guil-Martin/Juliette_et_les_Ptimos"
 	}
+
+
+
+	
 ]

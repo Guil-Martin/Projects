@@ -7,7 +7,11 @@ export const Project = ({ Props }) => {
 		<>
 			{
 				projects_list.map((element, i) => {
-					return (<ProjectSingle obj_test={element} key={i} />)
+					return (
+						<article className={"projectBox proj"+i}>
+							<ProjectSingle obj_test={element} key={i} />
+						</article>
+					)
 				})
 			}
 		</>
