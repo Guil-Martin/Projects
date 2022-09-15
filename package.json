@@ -1,0 +1,17 @@
+{
+  "name": "gmprojects",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "esbuild app.tsx --bundle --servedir=www/ --outdir=www/js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.15.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

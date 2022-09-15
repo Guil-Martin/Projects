@@ -1,0 +1,81 @@
+[
+	{
+		"title": "Web Agency",
+		"tech": [
+			{ "title": "HTML icon", "src": "icons/html.png" },
+			{ "title": "HTML icon", "src": "icons/css.png" }
+		],
+		"desc": [
+			"Intégration d'une maquette. Développé uniquement en HTML et CSS et un peu de javaScript, responsive."
+		],
+		"imgs": [
+			{ "title": "Integration Web Agency", "src": "webAgency.png" }
+		],
+		"github": ""
+	},
+	{
+		"title": "Carte interactive Vélo'V",
+		"tech": [
+			{ "title": "HTML CSS JS", "src": "icons/htmlcssjs.png" },
+			{ "title": "jQuery", "src": "icons/jquery.png" }
+		],
+		"desc": [
+			"Carte de réservation de vélo factice.",
+			"Développé en orienté objet (Classes ES6).",
+			"Projet réalisé en JavaScript/Jquery, HTML et CSS, responsive.",
+			"Panorama de déffilement d'images tutoriel avec bouton de pause.",
+			"Utilisation d'API pour obtenir des données en temps réel et afficher la carte (JCDecaux et google map).",
+			"Formulaire de nom et prénom, canvas signature et gestion des erreurs si champs vides.",
+			"Compte à rebours en temps réel pour la réservation.",
+			"Utilisation de localStorage et sessionStorage pour garder les données et préremplir les champs après un rafraîchissement de la page et/ou à la fermeture du navigateur."
+		],
+		"imgs": [
+			{ "title": "VeloV", "src": "velov.png" }
+		],
+		"github": "https://github.com/Guil-Martin/VeloV"
+	},
+	{
+		"title": "Blog d'écrivain",
+		"tech": [
+			{ "title": "HTML CSS JS", "src": "icons/htmlcssjs.png" },
+			{ "title": "Bootstrap", "src": "icons/bootstrap.png" },
+			{ "title": "jQuery", "src": "icons/jquery.png" },
+			{ "title": "PHP", "src": "icons/php.png" },
+			{ "title": "SQL", "src": "icons/sql.png" }
+		],
+		"desc": [
+			"Réalisation d'un blog d'écrivain factice pour un auteur factice - Jean Forteroche.",
+			"Utilisation d'un template, jquery et bootstrap pour le frontEnd, responsive.",
+			"Développé en pur PHP 7, orienté objet et en modèle MVC avec utilisation d'une base de données SQL.",
+			"Espace admin avec layout différent séparé de l'interface utilisateur avec CRUD fonctionnel et utilisation de librairies PHP (tinyMCE, GD).",
+			"Système de signalement des commentaires qui seront affichés dans l'espace admin avec option de suppression, utilisant AJAX."
+		],
+		"imgs": [
+			{ "title": "Blod d'écrivain", "src": "blog.png" }
+		],
+		"github": "https://github.com/Guil-Martin/phpBlog"
+	},
+	{
+		"title": "Site galerie d'images",
+		"tech": [
+			{ "title": "HTML CSS JS", "src": "icons/htmlcssjs.png" },
+			{ "title": "Bootstrap", "src": "icons/bootstrap.png" },
+			{ "title": "jQuery", "src": "icons/jquery.png" },
+			{ "title": "PHP", "src": "icons/php.png" },
+			{ "title": "SQL", "src": "icons/sql.png" }
+		],
+		"desc": [
+			"Un site où l'on peut créer un compte et poster des images et des nouvelles.",
+			"Utilisation de jquery et bootstrap pour le frontEnd, responsive.",
+			"Développé en pur PHP 7, orienté objet et en modèle MVC avec utilisation d'une base de données SQL.",
+			"Espace membre, formulaires d'inscription avec gestion d'erreurs et hashage de mot de passe.",
+			"Récupération de données avec jQuery et AJAX et utilisation de modal bootstrap pour afficher ces données.",
+			"Outils d'administration pour les utilisateurs inscrits - CRUD pour profil, images et nouvelles.",
+			"Système de commentaires et de like/dislike."
+		],
+		"imgs": [
+			{ "title": "Site galerie", "src": "gallery.png" }
+		],
+		"github": "https://github.com/Guil-Martin/p5"
+	}
+]
