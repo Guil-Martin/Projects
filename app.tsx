@@ -21,15 +21,15 @@ const App = () => {
 					return (
 						<div className={"projectCard proj"+i} key={i} onClick={() => cb_select_proj(i)}>
 							<h2 className="cardTitle">{element.title}</h2>
-							<div className="cardImg">
-								<img alt={element.title} title={element.title} src={"/images/"+element.imgs[0].src} />
-							</div>
 							<div className="cardTech">
 								{
 									element.tech.map((ele, i) => {
 										return <img key={i} className="cardTechIcon" src={ "/images/icons/" + ele.src } title={ ele.title } alt={ ele.title } />
 									})
 								}
+							</div>
+							<div className="cardImg">
+								<img alt={element.title} title={element.title} src={"/images/"+element.imgs[0].src} />
 							</div>
 						</div>
 					)

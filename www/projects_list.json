@@ -8,16 +8,7 @@
 		"desc": [
 			"Intégration d'une maquette. Développé uniquement en HTML et CSS et un peu de javaScript, responsive."
 		],
-		"imgs": [
-			{ "title": "Integration Web Agency", "src": "webAgency.png" },
-			{ "title": "Integration Web Agency", "src": "webAgency.png" },
-			{ "title": "Integration Web Agency", "src": "webAgency.png" },
-			{ "title": "Integration Web Agency", "src": "webAgency.png" },
-			{ "title": "Integration Web Agency", "src": "webAgency.png" },
-			{ "title": "Integration Web Agency", "src": "webAgency.png" },
-			{ "title": "Integration Web Agency", "src": "webAgency.png" }
-
-		],
+		"imgs": [{ "title": "Integration Web Agency", "src": "webAgency.png" }],
 		"github": ""
 	},
 	{
@@ -59,7 +50,7 @@
 		"github": "https://github.com/Guil-Martin/phpBlog"
 	},
 	{
-		"title": "Site galerie d'images",
+		"title": "Galerie d'images",
 		"tech": [
 			{ "title": "HTML CSS JS", "src": "htmlcssjs.png" },
 			{ "title": "Bootstrap", "src": "bootstrap.png" },
@@ -81,9 +72,7 @@
 	},
 	{
 		"title": "Juliette et les Ptimos",
-		"tech": [
-			{ "title": "Java", "src": "java.png" }
-		],
+		"tech": [{ "title": "Java", "src": "java.png" }],
 		"desc": [
 			"Petit jeu programmé en pur Java.",
 			"Focus sur l'utilisation du concept de la programmation orienté objet.",
@@ -91,9 +80,42 @@
 		],
 		"imgs": [{ "title": "Site galerie", "src": "gallery.png" }],
 		"github": "https://github.com/Guil-Martin/Juliette_et_les_Ptimos"
+	},
+	{
+		"title": "Les Gardiens d'Amos",
+		"tech": [
+			{ "title": "React Native and Redux", "src": "reactredux.png" },
+			{ "title": "Ruby On Rails", "src": "rails.png" }
+		],
+		"desc": [
+			"Les Gardiens d'Amos est un projet d'une application mobile réalisé en équipe utilisant React Native pour le front-end et Ruby on Rails pour le back-end.",
+			"Utilisation de Redux pour gérer les states.",
+			"Réalisation des icônes et modèles 3D"
+		],
+		"imgs": [
+			{ "title": "Les Gardiens d'Amos, UI", "src": "amosUI.png" },
+			{ "title": "Les Gardiens d'Amos, icons", "src": "amosIcons.png" },
+			{
+				"title": "Les Gardiens d'Amos, Amodex page",
+				"src": "amosAmodex.png"
+			}
+		],
+		"github": "https://github.com/les-gardiens-d-amos"
 	}
-
-
-
-	
+	,
+	{
+		"title": "Glyapp",
+		"tech": [
+			{ "title": "React and Redux", "src": "reactredux.png" },
+			{ "title": "Django", "src": "django.png" }
+		],
+		"desc": [
+			"Glyapp est une application full-stack développé avec React pour le front-end et Django pour le back-end.",
+			"..."
+		],
+		"imgs": [
+			{ "title": "Glyapp, file preview", "src": "glyappfpreview.png" }
+		],
+		"github": "https://github.com/les-gardiens-d-amos"
+	}
 ]

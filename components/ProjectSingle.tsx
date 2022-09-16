@@ -25,7 +25,8 @@ export const ProjectSingle = ({ project_data }) => {
 					desc.map((ele, i) => {
 						return <p key={i}>{ele}</p> 
 					})
-				}</div>
+				}
+			</div>
 			<div className='projectImgs'>
 				{
 					imgs.map((ele, i) => {
