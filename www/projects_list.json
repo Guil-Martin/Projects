@@ -41,7 +41,7 @@
 		],
 		"desc": [
 			"Réalisation d'un blog d'écrivain factice pour un auteur factice - Jean Forteroche.",
-			"Utilisation d'un template, jquery et bootstrap pour le frontEnd, responsive.",
+			"Utilisation d'un template, jquery et bootstrap pour le frontend, responsive.",
 			"Développé en pur PHP 7, orienté objet et en modèle MVC avec utilisation d'une base de données SQL.",
 			"Espace admin avec layout différent séparé de l'interface utilisateur avec CRUD fonctionnel et utilisation de librairies PHP (tinyMCE, GD).",
 			"Système de signalement des commentaires qui seront affichés dans l'espace admin avec option de suppression, utilisant AJAX."
@@ -60,7 +60,7 @@
 		],
 		"desc": [
 			"Un site où l'on peut créer un compte et poster des images et des nouvelles.",
-			"Utilisation de jquery et bootstrap pour le frontEnd, responsive.",
+			"Utilisation de jquery et bootstrap pour le frontend, responsive.",
 			"Développé en pur PHP 7, orienté objet et en modèle MVC avec utilisation d'une base de données SQL.",
 			"Espace membre, formulaires d'inscription avec gestion d'erreurs et hashage de mot de passe.",
 			"Récupération de données avec jQuery et AJAX et utilisation de modal bootstrap pour afficher ces données.",
@@ -88,7 +88,7 @@
 			{ "title": "Ruby On Rails", "src": "rails.png" }
 		],
 		"desc": [
-			"Les Gardiens d'Amos est un projet d'une application mobile réalisé en équipe utilisant React Native pour le front-end et Ruby on Rails pour le back-end.",
+			"Les Gardiens d'Amos est un projet d'une application mobile réalisé en équipe utilisant React Native pour le frontend et Ruby on Rails pour le backend.",
 			"Utilisation de Redux pour gérer les states.",
 			"Réalisation des icônes et modèles 3D"
 		],
@@ -101,8 +101,7 @@
 			}
 		],
 		"github": "https://github.com/les-gardiens-d-amos"
-	}
-	,
+	},
 	{
 		"title": "Glyapp",
 		"tech": [
@@ -110,7 +109,7 @@
 			{ "title": "Django", "src": "django.png" }
 		],
 		"desc": [
-			"Glyapp est une application full-stack développé avec React pour le front-end et Django pour le back-end.",
+			"Glyapp est une application full-stack développé avec React pour le frontend et Django pour le backend.",
 			"..."
 		],
 		"imgs": [

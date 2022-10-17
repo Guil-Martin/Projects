@@ -1,12 +1,17 @@
-import React, { useState, useRef } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import { createRoot } from 'react-dom/client';
 import { ProjectSingle } from './components/ProjectSingle'
 import projects_list from './www/projects_list.json'
 
 const App = () => {
 
+	const page_title = "GM-Projects"
 	const projectAnchor = useRef(null)
 	const [currProj, setCurrProj] = useState(0)
+
+	useEffect(() => {
+		document.title = page_title + " - " + projects_list[currProj].title
+	})
 
 	const cb_select_proj = (index) => {
 		setCurrProj(index)
@@ -14,7 +19,7 @@ const App = () => {
 	}
 
     return (
-		<>
+		<React.StrictMode>
 			<div className="projectsBox">
 			{
 				projects_list.map((element, i) => {
@@ -24,12 +29,12 @@ const App = () => {
 							<div className="cardTech">
 								{
 									element.tech.map((ele, i) => {
-										return <img key={i} className="cardTechIcon" src={ "/images/icons/" + ele.src } title={ ele.title } alt={ ele.title } />
+										return <img key={i} className="cardTechIcon" src={ "./images/icons/" + ele.src } title={ ele.title } alt={ ele.title } />
 									})
 								}
 							</div>
 							<div className="cardImg">
-								<img alt={element.title} title={element.title} src={"/images/"+element.imgs[0].src} />
+								<img alt={element.title} title={element.title} src={"./images/"+element.imgs[0].src} />
 							</div>
 						</div>
 					)
@@ -37,9 +42,9 @@ const App = () => {
 			}
 			</div>
 			<div ref={projectAnchor}>
-				<ProjectSingle  project_data={projects_list[currProj]} />
+				<ProjectSingle project_data={projects_list[currProj]} />
 			</div>
-		</>
+		</React.StrictMode>
 	)
 }
 

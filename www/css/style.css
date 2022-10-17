@@ -1,15 +1,16 @@
 :root {
-	--main_bg_c: rgb(2, 44, 68);
-	--second_bg_c: rgb(4, 58, 79);
-	--tertio_bg_c: rgb(3, 39, 53);
-	--main_hover_c: rgb(45, 142, 171);
+	--main_bg_c: #13293D;
+	--second_bg_c: #004261;
+	--tertio_bg_c: #247BA0;
+	--main_hover_c: #1B98E0;
+	--main_txt_c: #E8F1F2;
 }
 
 body {
 	width: 100%;
 	margin: 0;
 	background: var(--main_bg_c);
-	color: white;
+	color: var(--main_txt_c);
 	display: flex;
 	justify-content: center;
 }
@@ -69,6 +70,7 @@ a:hover {
 
 .cardImg img {
 	width: 100%;
+	height: 100%;
 	transition: transform .5s ease;
 }
 
@@ -154,6 +156,7 @@ a:hover {
 	}
 	.cardImg {
 		width: 65%;
+		border-radius: 0;
 	}
 	.projectCard {
 		width: 40%;
@@ -174,7 +177,7 @@ a:hover {
 	}
 	.projectCard {
 		width: 80%;
-		margin: 0;
+		margin: 10px 0;
 	}
 	.cardImg {
 		width: 50%;

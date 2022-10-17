@@ -10,14 +10,14 @@ export const ProjectSingle = ({ project_data }) => {
 			<div className='tech'>
 				{
 					tech.map((ele, i) => {
-						return <img key={i} className="techicon" src={ "/images/icons/" + ele.src } title={ ele.title } alt={ ele.title } />
+						return <img key={i} className="techicon" src={ "./images/icons/" + ele.src } title={ ele.title } alt={ ele.title } />
 					})
 				}
 			</div>
 			{
 				github != "" && 
 				<a href={ github } className="github">
-					<img className="giticon" alt={"GitHub " + title} title={"GitHub " + title} src="/images/icons/github.png" />
+					<img className="giticon" alt={"GitHub " + title} title={"GitHub " + title} src="./images/icons/github.png" />
 					<div className="">{"GitHub - " + title}</div>
 				</a>
 			}
@@ -30,7 +30,7 @@ export const ProjectSingle = ({ project_data }) => {
 			<div className='projectImgs'>
 				{
 					imgs.map((ele, i) => {
-						return <img key={i} className="projectImg" src={"/images/" + ele.src } title={ ele.title } alt={ ele.title }/>
+						return <img key={i} className="projectImg" src={"./images/" + ele.src } title={ ele.title } alt={ ele.title }/>
 					})
 				}
 			</div>
