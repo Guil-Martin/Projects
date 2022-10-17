@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import projects_list from './www/projects_list.json'
 
 import { ProjectSingle } from './components/ProjectSingle'
+import { Modal } from './components/Modal'
 import { ScrollButton } from './components/ScrollButton'
 
 const App = () => {
@@ -10,6 +11,16 @@ const App = () => {
 	const page_title = "GM-Projects"
 	const projectAnchor = useRef(null)
 	const [currProj, setCurrProj] = useState(0)
+
+	const [modalContent, setModalContent] = useState(null)
+	const [modalOpen, setModalOpen] = useState(false)
+	const handleKeyModal = (e) => { if (e.keyCode == 27) { handleModal(null, false) } }
+	const handleModal = (imageData, open = true) => {
+		setModalContent(imageData)
+		setModalOpen(open)
+		open ? document.addEventListener("keydown", handleKeyModal, false)
+			: document.removeEventListener("keydown", handleKeyModal)
+	}
 
 	useEffect(() => {
 		document.title = page_title + " - " + projects_list[currProj].title
@@ -44,8 +55,9 @@ const App = () => {
 			}
 			</div>
 			<div ref={projectAnchor}>
-				<ProjectSingle project_data={projects_list[currProj]} />
+				<ProjectSingle project_data={projects_list[currProj]} modalFunction={handleModal} />
 			</div>
+			<Modal imageData={modalContent} show={modalOpen} modalFunction={handleModal} />
 			<ScrollButton />
 		</React.StrictMode>
 	)

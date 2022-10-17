@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const ProjectSingle = ({ project_data }) => {
+export const ProjectSingle = ({ project_data, modalFunction}, ) => {
 
 	const { title, tech, desc, imgs, github } = project_data
 
@@ -30,7 +30,7 @@ export const ProjectSingle = ({ project_data }) => {
 			<div className='projectImgs'>
 				{
 					imgs.map((ele, i) => {
-						return <img key={i} className="projectImg" src={"./images/" + ele.src } title={ ele.title } alt={ ele.title }/>
+						return <img key={i} className="projectImg" src={"./images/" + ele.src } title={ ele.title } alt={ ele.title } onClick={() => modalFunction(ele)}/>
 					})
 				}
 			</div>
