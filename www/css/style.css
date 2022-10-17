@@ -9,6 +9,7 @@
 body {
 	width: 100%;
 	margin: 0;
+	margin-bottom: 60px;
 	background: var(--main_bg_c);
 	color: var(--main_txt_c);
 	display: flex;
@@ -145,6 +146,21 @@ a:hover {
 	margin: 0 6px;
 	width: 32px;
 	height: 32px;
+}
+
+.scrollBtn {
+	width: 200px;
+	height: 50px;
+	position:fixed;
+	z-index: 99;
+	left: 50%;
+	bottom: 1%;
+	transform: translate(-100px, 0);
+	font-weight: bold;
+	color: var(--main_txt_c);
+	border-radius: 10px;
+	background-color: var(--second_bg_c);
+	border: 3px solid var(--main_bg_c);
 }
 
 @media only screen and (max-width: 1000px) {

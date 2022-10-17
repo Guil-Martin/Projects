@@ -1,7 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { createRoot } from 'react-dom/client';
-import { ProjectSingle } from './components/ProjectSingle'
 import projects_list from './www/projects_list.json'
+
+import { ProjectSingle } from './components/ProjectSingle'
+import { ScrollButton } from './components/ScrollButton'
 
 const App = () => {
 
@@ -44,6 +46,7 @@ const App = () => {
 			<div ref={projectAnchor}>
 				<ProjectSingle project_data={projects_list[currProj]} />
 			</div>
+			<ScrollButton />
 		</React.StrictMode>
 	)
 }
