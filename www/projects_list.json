@@ -46,7 +46,17 @@
 			"Espace admin avec layout différent séparé de l'interface utilisateur avec CRUD fonctionnel et utilisation de librairies PHP (tinyMCE, GD).",
 			"Système de signalement des commentaires qui seront affichés dans l'espace admin avec option de suppression, utilisant AJAX."
 		],
-		"imgs": [{ "title": "Blod d'écrivain", "src": "blog.png" }],
+		"imgs": [
+			{ "title": "Blod d'écrivain - Accueil", "src": "BlogJF_home.png" },
+			{ "title": "Blod d'écrivain", "src": "BlogJF_article.png" },
+			{ "title": "Blod d'écrivain", "src": "BlogJF_article_comments.png" },
+			{ "title": "Blod d'écrivain", "src": "BlogJF_login_page.png" },
+			{ "title": "Blod d'écrivain", "src": "BlogJF_admin_page.png" },
+			{ "title": "Blod d'écrivain", "src": "BlogJF_edit_article.png" },
+			{ "title": "Blod d'écrivain", "src": "BlogJF_post_article.png" },
+			{ "title": "Blod d'écrivain", "src": "BlogJF_comments.png" },
+			{ "title": "Blod d'écrivain", "src": "BlogJF_comments_moderation.png" }
+		],
 		"github": "https://github.com/Guil-Martin/phpBlog"
 	},
 	{
@@ -67,7 +77,19 @@
 			"Outils d'administration pour les utilisateurs inscrits - CRUD pour profil, images et nouvelles.",
 			"Système de commentaires et de like/dislike."
 		],
-		"imgs": [{ "title": "Site galerie", "src": "gallery.png" }],
+		"imgs": [
+			{ "title": "Site galerie - Accueil", "src": "Galerie_home.png" },
+			{ "title": "Site galerie - modal image", "src": "Galerie_modal_image.png" },
+			{ "title": "Site galerie - modal nouvelle", "src": "Galerie_modal_news.png" },
+			{ "title": "Site galerie - nouvelle utilisateur", "src": "Galerie_user_news.png" },
+			{ "title": "Site galerie - profile utilisateur", "src": "Galerie_user_profile.png" },
+			{ "title": "Site galerie - page connexion", "src": "Galerie_login_page.png" },
+			{ "title": "Site galerie - connected", "src": "Galerie_connected.png" },
+			{ "title": "Site galerie - edit profle", "src": "Galerie_edit_profile.png" },
+			{ "title": "Site galerie - poster une image", "src": "Galerie_post_image.png" },
+			{ "title": "Site galerie - poster une nouvelle ", "src": "Galerie_post_news.png" },
+			{ "title": "Site galerie - commentaires ", "src": "Galerie_comments.png" }
+		],
 		"github": "https://github.com/Guil-Martin/p5"
 	},
 	{
@@ -78,7 +100,22 @@
 			"Focus sur l'utilisation du concept de la programmation orienté objet.",
 			"Utilisation du package Swing Java pour l'interface graphique."
 		],
-		"imgs": [{ "title": "Site galerie", "src": "gallery.png" }],
+		"imgs": [
+			{ "title": "Juliette et les Ptimos - Approcher", "src": "Juliette_et_les_Ptimos_opening.png" },
+			{ "title": "Juliette et les Ptimos - Ptimo Sacbleu", "src": "Juliette_et_les_Ptimos_sacbleu.png" },
+			{ "title": "Juliette et les Ptimos - S'approcher", "src": "Juliette_et_les_Ptimos_advancing.png" },
+			{ "title": "Juliette et les Ptimos - Attaque du Ptimo", "src": "Juliette_et_les_Ptimos_ptimo_attack.png" },
+			{ "title": "Juliette et les Ptimos - Attaque magique du Ptimo", "src": "Juliette_et_les_Ptimos_magic_attack.png" },
+			{ "title": "Juliette et les Ptimos - Observer", "src": "Juliette_et_les_Ptimos_observe.png" },
+			{ "title": "Juliette et les Ptimos - Le Ptimo s'éloigne", "src": "Juliette_et_les_Ptimos_moveaway_ptimo.png" },
+			{ "title": "Juliette et les Ptimos - Boire une potion", "src": "Juliette_et_les_Ptimos_potion_drink.png" },
+			{ "title": "Juliette et les Ptimos - Ptimo Pyralia", "src": "Juliette_et_les_Ptimos_pyralia.png" },
+			{ "title": "Juliette et les Ptimos - Ptimo Pokrand", "src": "Juliette_et_les_Ptimos_pokrand.png" },
+			{ "title": "Juliette et les Ptimos - pas de main de pokrand", "src": "Juliette_et_les_Ptimos_pokrand_nohand.png" },
+			{ "title": "Juliette et les Ptimos - pair de pokrand", "src": "Juliette_et_les_Ptimos_pokrand_pair.png" },
+			{ "title": "Juliette et les Ptimos - brelan de pokrand", "src": "Juliette_et_les_Ptimos_pokrand_threeofakind.png" },
+			{ "title": "Juliette et les Ptimos - Défaite", "src": "Juliette_et_les_Ptimos_defeat.png" }
+		],
 		"github": "https://github.com/Guil-Martin/Juliette_et_les_Ptimos"
 	},
 	{
@@ -113,8 +150,31 @@
 			"..."
 		],
 		"imgs": [
-			{ "title": "Glyapp, file preview", "src": "glyappfpreview.png" }
+			{ "title": "Glyapp - calculs", "src": "Glyapp_calculations.png" },
+			{ "title": "Glyapp - liste de fichiers", "src": "Glyapp_files_added.png" },
+			{ "title": "Glyapp - menus", "src": "Glyapp_menus.png" },
+			{ "title": "Glyapp - aperçu d'un fichier", "src": "Glyapp_file_preview.png" },
+			{ "title": "Glyapp - options", "src": "Glyapp_options.png" },
+			{ "title": "Glyapp - Option calendrier", "src": "Glyapp_calendar.png" },
+			{ "title": "Glyapp - graphiques", "src": "Glyapp_graphs.png" },
+			{ "title": "Glyapp - guide", "src": "Glyapp_guide.png" },
+			{ "title": "Glyapp - log d'erreurs", "src": "Glyapp_error_log.png" },
+			{ "title": "Glyapp - intervalles", "src": "Glyapp_intervals.png" }
 		],
 		"github": "https://github.com/les-gardiens-d-amos"
+	},
+	{
+		"title": "Stable Diffusion - GUI",
+		"tech": [
+			{ "title": "Python", "src": "python.png" }
+		],
+		"desc": [
+			"Interface utilisateur créée en Python pour le programme de génération d'image par intelligence artificielle Stable Diffusion.",
+			"Utilise la librairie dearpygui."
+		],
+		"imgs": [
+			{ "title": "Glyapp - calculs", "src": "Stable_Diffusion_GUI.png" }
+		],
+		"github": "https://github.com/Guil-Martin/SimpleGUIStableDIffusion"
 	}
 ]
