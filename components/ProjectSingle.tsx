@@ -30,7 +30,7 @@ export const ProjectSingle = ({ project_data, modalFunction}, ) => {
 			<div className='projectImgs'>
 				{
 					imgs.map((ele, i) => {
-						return <img key={i} className="projectImg" src={"./images/" + ele.src } title={ ele.title } alt={ ele.title } onClick={() => modalFunction(ele)}/>
+						return <img key={i} className="projectImg" src={"./images/" + ele.src } title={ ele.title } alt={ ele.title } onClick={() => modalFunction(imgs, i)}/>
 					})
 				}
 			</div>

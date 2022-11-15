@@ -167,28 +167,42 @@ a:hover {
 
 .modal-content {
 	background-color: var(--main_bg_c);
+	width: 90%;
 	margin: 6% auto;
 	border: 1px solid rgb(45, 45, 45);
-	width: 90%;
 }
 
 .modalImg {
 	width: 100%;
 }
 
-.close {
-	width: 200px;
-	height: 50px;
+.modalButtonCoutner {
+	display: flex;
+	align-items: center;
 	position: fixed;
 	top: 1%;
 	left: 50%;
-	transform: translate(-100px, 0);
+	transform: translate(-150px, 0);
+}
+
+.modalCloseBtn {
+	width: 200px;
+	height: 50px;
 	font-size: 1.7em;
 	font-weight: bold;
 	color: var(--main_txt_c);
 	border-radius: 10px;
 	background-color: var(--second_bg_c);
 	border: 3px solid var(--main_bg_c);
+}
+
+.modalImgCounter {
+	width: 100px;
+	text-align: center;
+	text-shadow: 2px 0 var(--second_bg_c), -2px 0 var(--second_bg_c), 0 2px var(--second_bg_c), 0 -2px var(--second_bg_c),
+             1px 1px var(--second_bg_c), -1px -1px var(--second_bg_c), 1px -1px var(--second_bg_c), -1px 1px var(--second_bg_c);
+	font-size: 1.7em;
+	font-weight: bold;
 }
 
 .close:hover,
@@ -257,4 +271,11 @@ a:hover {
 	.modal-content {
 		margin: 17% auto; /* 15% from the top and centered */
 	}
+
+	.modal-content {
+		width: auto;
+	}
+	/* .modalImg {
+		width: auto;
+	} */
 }

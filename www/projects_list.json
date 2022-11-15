@@ -6,7 +6,9 @@
 			{ "title": "HTML icon", "src": "css.png" }
 		],
 		"desc": [
-			"Intégration d'une maquette. Développé uniquement en HTML et CSS et un peu de javaScript, responsive."
+			"Intégration d'une maquette en HTML et CSS.",
+			"Utilisation de flexbox pour la mise en page en CSS",
+			"Intégration de media queries pour le responsive en CSS."
 		],
 		"imgs": [{ "title": "Integration Web Agency", "src": "webAgency.png" }],
 		"github": ""
@@ -21,13 +23,18 @@
 			"Carte de réservation de vélo factice.",
 			"Développé en orienté objet (Classes ES6).",
 			"Projet réalisé en JavaScript/Jquery, HTML et CSS, responsive.",
-			"Panorama de déffilement d'images tutoriel avec bouton de pause.",
-			"Utilisation d'API pour obtenir des données en temps réel et afficher la carte (JCDecaux et google map).",
-			"Formulaire de nom et prénom, canvas signature et gestion des erreurs si champs vides.",
+			"Panorama de déffilement automatique d'images tutoriel avec bouton de pause.",
+			"Utilisation d'une API pour obtenir des données en format JSON en temps réel et les afficher sur une carte goodle de la ville de Lyon. (JCDecaux et google map)",
+			"Formulaire de nom et prénom, canvas signature et gestion des erreurs si champs vides/incorrects.",
 			"Compte à rebours en temps réel pour la réservation.",
 			"Utilisation de localStorage et sessionStorage pour garder les données et préremplir les champs après un rafraîchissement de la page et/ou à la fermeture du navigateur."
 		],
-		"imgs": [{ "title": "VeloV", "src": "velov.png" }],
+		"imgs": [
+			{ "title": "VeloV - accueil", "src": "veloV_home.png" },
+			{ "title": "VeloV - aperçu carte", "src": "veloV_map_preview.png" },
+			{ "title": "VeloV - menu de côté", "src": "veloV_slide_menu.png" },
+			{ "title": "VeloV - signature menu", "src": "veloV_signature.png" }
+		],
 		"github": "https://github.com/Guil-Martin/VeloV"
 	},
 	{
@@ -41,10 +48,10 @@
 		],
 		"desc": [
 			"Réalisation d'un blog d'écrivain factice pour un auteur factice - Jean Forteroche.",
-			"Utilisation d'un template, jquery et bootstrap pour le frontend, responsive.",
+			"Utilisation d'un template jquery et bootstrap pour le frontend, animé et responsive.",
 			"Développé en pur PHP 7, orienté objet et en modèle MVC avec utilisation d'une base de données SQL.",
-			"Espace admin avec layout différent séparé de l'interface utilisateur avec CRUD fonctionnel et utilisation de librairies PHP (tinyMCE, GD).",
-			"Système de signalement des commentaires qui seront affichés dans l'espace admin avec option de suppression, utilisant AJAX."
+			"Espace admin avec un layout différent donnanat la possibilité d'ajouter des articles, de les modifier ou de les supprimer avec une interface utilisateur CRUD, utilisation de librairies PHP (tinyMCE, GD).",
+			"Système de signalement des commentaires, ils seront ensuite affichés dans l'espace admin avec options de modération, utilisant AJAX."
 		],
 		"imgs": [
 			{ "title": "Blod d'écrivain - Accueil", "src": "BlogJF_home.png" },
@@ -98,7 +105,9 @@
 		"desc": [
 			"Petit jeu programmé en pur Java.",
 			"Focus sur l'utilisation du concept de la programmation orienté objet.",
-			"Utilisation du package Swing Java pour l'interface graphique."
+			"Utilisation du package Swing Java pour l'interface graphique.",
+			"Système de jeu en tour par tour, gestion des timings, animations, évènement de touches, dialogues affichés et algorithmes simples pour gérer les dégats et status en orienté objet.",
+			"Système d'attaque par jeu de poker ou le monstre peut essayer d'obtenir une main de poker avec des résultats différents selon la main obtenue, le résultat de la main est affichée graphiquement et programmée et optimisée en orienté objet. (Création d'un jeu de poker à l'apparition du monstre concerné.)"
 		],
 		"imgs": [
 			{ "title": "Juliette et les Ptimos - Approcher", "src": "Juliette_et_les_Ptimos_opening.png" },
@@ -127,7 +136,11 @@
 		"desc": [
 			"Les Gardiens d'Amos est un projet d'une application mobile réalisé en équipe utilisant React Native pour le frontend et Ruby on Rails pour le backend.",
 			"Utilisation de Redux pour gérer les states.",
-			"Réalisation des icônes et modèles 3D"
+			"Réalisation des icônes et modèles 3D pour représenter les menus et chaque type d'animaux.",
+			"Utilisation de différentes librairies:",
+			"- L'intelligence atificielle Clarifai pour détecter le type d'animal pris en photo et autoriser la capture.",
+			"- Gérer les photos, leur taille et le crop pour obtenir des images petites et optimisées avant la mise en base de donnée et upload automatique sur Cloudinary (plugin Heroku).",
+			"- Détecter la localisation de la capture et l'afficher sur une carte google avec Geohash."
 		],
 		"imgs": [
 			{ "title": "Les Gardiens d'Amos, UI", "src": "amosUI.png" },
@@ -147,7 +160,13 @@
 		],
 		"desc": [
 			"Glyapp est une application full-stack développé avec React pour le frontend et Django pour le backend.",
-			"..."
+			"Réalisée en single page application, aucun chargement de page.",
+			"Utilissation de la librairie material-ui pour gérer l'apparence du front-end ainsi que le responsive",
+			"Possibilité d'upload de fichiers format CSV ou TXT (via explorateur ou glisser-déposer) représentant des données de fichiers capteur glycémiques.",
+			"Détection automatique du type de fichier capteur et traitement en conséquence.",
+			"Génération de graphiques selon les fichiers ajoutés, graphique général et optionellement graphiques par jour.",
+			"Partie calculs donnant divers résultats de calculs mathématiques, utilisée pour l'analyse de ces fichiers sur différentes périodes. (ajoutables dans l'interface.",
+			"Possibilité de téléchargement des images des graphiques en format zip, de même pour les résultats."
 		],
 		"imgs": [
 			{ "title": "Glyapp - calculs", "src": "Glyapp_calculations.png" },

@@ -14,12 +14,10 @@ const App = () => {
 
 	const [modalContent, setModalContent] = useState(null)
 	const [modalOpen, setModalOpen] = useState(false)
-	const handleKeyModal = (e) => { if (e.keyCode == 27) { handleModal(null, false) } }
-	const handleModal = (imageData, open = true) => {
-		setModalContent(imageData)
+
+	const handleModal = (imgs, index, open = true) => {
+		setModalContent({imgs: imgs, currentIndex: index})
 		setModalOpen(open)
-		open ? document.addEventListener("keydown", handleKeyModal, false)
-			: document.removeEventListener("keydown", handleKeyModal)
 	}
 
 	useEffect(() => {
@@ -28,7 +26,7 @@ const App = () => {
 
 	const cb_select_proj = (index) => {
 		setCurrProj(index)
-		projectAnchor.current.scrollIntoView({ behavior: 'smooth', block: 'start', inline: "nearest" })    
+		projectAnchor.current.scrollIntoView({ behavior: 'smooth', block: 'start', inline: "nearest" })
 	}
 
     return (
